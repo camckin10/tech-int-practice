@@ -11,7 +11,7 @@
 
 	<hr>
 
-	<section class="question-1">
+	<section id="question-1">
 		<h4>Question #1</h4>
 	 <p>Hello World--create a problem that prompts for your name and prints a greeting using your name. 
 	 CONSTRAINT:Keep input, string interpolation, and output separate. 
@@ -19,14 +19,16 @@
 	 What is your name? Bob
 	 Hello Bob, nice to meet you.</p>
 
-	 <p>SOLUTION:(using python3):
+	 <p>SOLUTION:(using Python3):
 	 name = "Chelsey"  
 	 input_name = input("What is your name?")
 	 print("Hello" + " "+ name + " " + ",nice to meet you.")
 	 </p>
 	</section>
 
-	<section class="question-2">
+	<hr>
+
+	<section id="question-2">
 	<h4>Question #2</h4>
 	<p>Counting Number of Characters--Create a program that prompts for an input string and displays output that shows input string and the number of characters the string contains. 
 	EXAMPLE OUTPUT:
@@ -45,27 +47,43 @@
 	</p>
 	</section>
 
-	<section class= "question-3">
+	<hr>
+
+	<section id= "question-3">
 	<h4>Question #3</h4>
 	<p>Create a program that prompts for a quote and an author.
-	Display the quotation and author shown in the example output.</p>
-	<p>Example output: 
-			What is the quote? Lisa I'm home! 
-			Who said it? A comedian
-			A comedian says, "Lisa I'm home!"</p>
-			<p>Constraints:
-			Use a single output statement to produce this output using appropriate string escape techniques.
-			Don't use string interpolation/string substitution.</p>
-				<hr>
-			<p>Here is the code:</p>
-			<p>What is your name? <input id="one"></p>
-			<p>Who said it? <input id="two"></p>
-			<button id="submit">Submit Answer</button>
+	Display the quotation and author shown in the example output.
+	Example output: 
+		What is the quote? Lisa I'm home! 
+		Who said it? A comedian
+		A comedian says, "Lisa I'm home!"
+	Constraints:
+		Use a single output statement to produce this output using appropriate string escape techniques.
+		Don't use string interpolation/string substitution.</p>
+		
+			<p>SOLUTION:</p>
+			<form id = "quotes">
+  		<label>What is your quote?</label>
+  		<input type = "text" name = "firstquestion" id = "firstquestion">
+  		<br>
+  		<label>Who said it?</label>
+  		<input type="text" name="secondquestion" id="secondquestion">
+  		<br>
+  		<button type="submit">Submit Answer</button>  
+</form>
 
-			<hr>
+<section id = "display"></section>
 
-			<div id = "answer"></div>
 	</section>
+
+	<hr> 
+
+	<section id="question-4">
+
+	</section>
+
+	
+	<!--adding jquery and js links-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 	<!--<script src="jquery-3.3.1.min.js"></script>-->
