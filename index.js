@@ -41,4 +41,20 @@ quotes.addEventListener('submit', function(event){
   }
 }, false);
 
-//2nd event listener for author
+
+//Code for madlibs problem--question #4
+function madLib(){
+  var mainStory = document.getElementById('mainstory');
+  var noun = document.getElementById('noun-box').value;
+  var verb = document.getElementById('verb-box').value;
+  var adjective = document.getElementById('adjective-box').value;
+	var adverb = document.getElementById('adverb-box').value;
+	 mainStory.innerHTML = noun + " " + adverb + " " + "kitchen" + " " + adjective + " " + verb + "today.";
+	 
+	 //to stop the page from refresh
+	 event.preventDefault();
+}
+
+//var submitStory = document.getElementById('#submit');
+//submitStory.addEventListener('submit', madLib);
+

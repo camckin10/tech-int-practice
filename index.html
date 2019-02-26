@@ -79,10 +79,55 @@
 	<hr> 
 
 	<section id="question-4">
+	<h4>Question #4</h4>
+	<p>Create a simple mad-lib program that prompts for a noun, a verb, an adverbm and an adjective and injeect those into a story that you create.
+	<ol>The grammar defined: 
+  <li>noun definition</li>
+  <li>verb definition</li>
+  <li>adverb definition</li>
+  <li>adjective definition</li> 
+</ol>
+	Example output: 
+		Enter a noun : princess 
+		Enter a verb: sleep
+		Enter an adjective: purple
+		Enter an adverb: hungrily
+		Does the princess sleep in your purple kitchen hungrily? Thats odd. 
+	Constraints:
+		Use a single output statement  for this program. 
+		If your language supports string interpolation or string substitution, use it to build up the output.
+		</p>
+
+		<p>SOLUTION:</p>
+<form id ="madlib">
+<!--input boxes-->
+Noun: <input type="text" name="noun-box" id="noun-box">
+<br>
+Verb: <input type="text" name="verb-box" id="verb-box">
+<br>
+Adjective: <input type="text" name="adjective-box" id="adjective-box">
+<br>
+Adverb: <input type="text" name="adverb-box" id="adverb-box">
+<br>
+<button type="submit" onClick="madLib()" id="submit">Submit</button>
+</form>
+
+<section id="mainstory">
+  
+</section>
+
 
 	</section>
 
-	
+	<hr>
+	<p>Question #5 will be placed here.</p>
+
+
+
+
+
+
+
 	<!--adding jquery and js links-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
