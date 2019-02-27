@@ -61,7 +61,7 @@
 		Use a single output statement to produce this output using appropriate string escape techniques.
 		Don't use string interpolation/string substitution.</p>
 		
-			<p>SOLUTION:</p>
+			<p>SOLUTION:(vanilla JS)</p>
 			<form id = "quotes">
   		<label>What is your quote?</label>
   		<input type = "text" name = "firstquestion" id = "firstquestion">
@@ -98,7 +98,7 @@
 		If your language supports string interpolation or string substitution, use it to build up the output.
 		</p>
 
-		<p>SOLUTION:</p>
+		<p>SOLUTION:(vanilla JS)</p>
 <form id ="madlib">
 <!--input boxes-->
 Noun: <input type="text" name="noun-box" id="noun-box">
@@ -116,13 +116,46 @@ Adverb: <input type="text" name="adverb-box" id="adverb-box">
   <!--this is where the result will appear-->
 </section>
 
+	</section>
+
+	<hr>
+	<section id ="question-5">
+			<h4>Simple Math</h4>
+			<p>Write a program that prompts for two numbers. Print the sum, difference, product, and quotient of those numbers as shown in the example out.</p>
+			<p>CONSTRAINTS</p>
+			<ol>
+				<li>Values coming from users wil be strings</li>
+				<li>Ensure that you convert these values to numbers before doing the math.</li>
+				<li>Keep inputs and outputs separate from the numberical conversions and other prcoessing. </li>
+				<li>Generate a single output statement with line breaks in the appropriate spots.</li>
+			</ol>
+			<p>EXAMPLE OUTPUT:
+				What is the first number? 10
+				What is the second number? 5
+				10 + 5 = 15
+				10 - 5 = 5
+				10 * 5 = 50
+				10/5 = 2
+			</p>
+
+			<p>SOLUTION(vanillaJS)</p>
+			What is the first number?
+			<input type="text" name="firstnum" id="firstnum">
+			<br>
+			What is the second number?
+			<input type="text" name="secondnum" id="secondnum">
+			<button type="click" id="enter-answer" onClick="simpleMath()">Enter Numbers</button>
+
+		<div id="displayanswer"></div>
 
 	</section>
 
 	<hr>
-	<p>Question #5 will be placed here.</p>
 
 
+	<section id="question-6">
+		<p>Question #6 will be placed here</p>
+	</section>
 
 
 

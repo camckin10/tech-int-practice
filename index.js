@@ -56,6 +56,16 @@ function madLib(){
 }
 
 
+//question 5-simple math code
+function simpleMath(){
+  var answer = document.getElementById('displayanswer');
+  var a = parseInt(document.getElementById('firstnum').value);
+  var b = parseInt(document.getElementById('secondnum').value);
+  
+  displayanswer.innerHTML = (a+b) + " " + "<br>" + " " + (a-b) + " " + "<br>" + (a/b) + " " + "<br>" + (a*b);
+}
+
+
 
 
 
