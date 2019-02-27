@@ -55,6 +55,8 @@ function madLib(){
 	 event.preventDefault();
 }
 
-//var submitStory = document.getElementById('#submit');
-//submitStory.addEventListener('submit', madLib);
+
+
+
+
 
